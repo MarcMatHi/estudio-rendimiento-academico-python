@@ -25,7 +25,7 @@ Este repositorio está dividido en dos análisis principales, cada uno documenta
 **Notebook:** [`Estudiar_vs_Descansar.ipynb`](./Estudiar_vs_Descansar.ipynb)
 
 En esta primera fase, exploramos la relación entre las horas dedicadas al estudio, las horas de sueño y las calificaciones obtenidas. 
-* **Metodología:** Análisis de correlación Bivariante y Regresión Lineal para comprobar la relación entre los diferentes parámetros y cuál es su influencia en la nota final.
+* **Metodología:** Análisis de Correlación Bivariante y Regresión Lineal para comprobar la relación entre los diferentes parámetros y cuál es su influencia en la nota final.
 * **Hallazgos Principales:** 
   * *Se descubrió que el efecto de ambas variables está relacionado con una mejor nota final.*
   * *Estudiar más horas mostró una mejoría en la nota final respecto a descansar mejor.*
