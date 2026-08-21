@@ -71,6 +71,6 @@ Muchos estudiantes compaginan sus estudios con trabajos a media jornada. ¿Tiene
 
 ## 👨‍💻 Autor
 
-**[Marc Mateu Higueras**
+**Marc Mateu Higueras**
 * Data Analyst 
 * https://www.linkedin.com/in/marc-mateu-higueras-2814a7390/
