@@ -10,14 +10,14 @@
 
 El objetivo de este proyecto es **analizar datos relacionados con los hábitos y el entorno de los estudiantes** para descubrir qué factores tienen un impacto real y estadísticamente significativo en su rendimiento académico. 
 
-En lugar de basarnos en la intuición, aplicamos **estadística inferencial** para responder a dos preguntas de negocio (o de investigación) fundamentales:
+En lugar de basarnos en la intuición, aplicamos **estadística inferencial** para responder a dos preguntas de investigación fundamentales:
 
 1. ¿Es mejor estudiar más o dormir mejor para sacar buenas notas?
 2. ¿Afecta tener un trabajo a tiempo parcial a la nota final?
 
 ---
 
-## 🔍 Análisis y Preguntas de Negocio
+## 🔍 Análisis y Preguntas de Investigación
 
 Este repositorio está dividido en dos análisis principales, cada uno documentado en su propio Jupyter Notebook.
 
@@ -25,21 +25,21 @@ Este repositorio está dividido en dos análisis principales, cada uno documenta
 **Notebook:** [`Estudiar_vs_Descansar.ipynb`](./Estudiar_vs_Descansar.ipynb)
 
 En esta primera fase, exploramos la relación entre las horas dedicadas al estudio, las horas de sueño y las calificaciones obtenidas. 
-* **Metodología:** Análisis de correlación de Pearson, pruebas de hipótesis (Test T / ANOVA) para comparar grupos con diferentes hábitos de sueño/estudio.
+* **Metodología:** Análisis de correlación Bivariante y Regresión Lineal para comprobar la relación entre los diferentes parámetros y cuál es su influencia en la nota final.
 * **Hallazgos Principales:** 
-  * *[Añade aquí tu conclusión 1: ej. "Se descubrió que dormir menos de 6 horas anula los beneficios de estudiar más de 4 horas diarias..."]*
-  * *[Añade aquí tu conclusión 2]*
-* **Recomendación de Negocio/Educativa:** *[Ej. "Las instituciones educativas deberían fomentar campañas de higiene del sueño, ya que optimiza el tiempo de estudio..."]*
+  * *Se descubrió que el efecto de ambas variables está relacionado con una mejor nota final.*
+  * *Estudiar más horas mostró una mejoría en la nota final respecto a descansar mejor.*
+* **Recomendación de Educativa:** *La clave para sacar mejores notas consiste en estudiar las horas necesarias y dormir bien.*
 
 ### 2. El Impacto del Trabajo a Tiempo Parcial 💼🎓
 **Notebook:** [`Trabajo_efecto_NotaFinal.ipynb`](./Trabajo_efecto_NotaFinal.ipynb)
 
 Muchos estudiantes compaginan sus estudios con trabajos a media jornada. ¿Tiene esto un costo penalizador en sus notas finales?
-* **Metodología:** Pruebas de hipótesis comparando las medias poblacionales de estudiantes que trabajan vs. los que no trabajan, controlando variables como las horas de estudio.
+* **Metodología:** Pruebas de hipótesis (T-test, tamño del efecto) comparando las medias poblacionales de estudiantes que trabajan vs. los que no trabajan.
 * **Hallazgos Principales:**
-  * *[Añade aquí tu conclusión 1: ej. "Contrario a lo esperado, los estudiantes con trabajos de menos de 15 horas semanales mostraron un rendimiento un 5% superior..."]*
-  * *[Añade aquí tu conclusión 2]*
-* **Recomendación de Negocio/Educativa:** *[Ej. "Fomentar programas de trabajo en el campus con horarios limitados puede ser beneficioso para la gestión del tiempo del estudiante..."]*
+  * *Los estudiantes con trabajo mostraron un rendimiento académico menor en comparación a los estudiantes que no trabajan*
+  * *El tamaño del efecto medio-bajo nos indica que, si bien influye, el efecto de compaginar trabajo con estudios es pequeño*
+* **Recomendación de Educativa:** *Fomentar programas de gestión del tiempo podría ser beneficioso para los estudiantes con trabajo.*
 
 ---
 
@@ -47,7 +47,6 @@ Muchos estudiantes compaginan sus estudios con trabajos a media jornada. ¿Tiene
 
 * **Lenguaje:** Python 3
 * **Manipulación y Limpieza de Datos:** `pandas`, `numpy`
-* **Visualización de Datos:** `matplotlib`, `seaborn`
 * **Análisis Estadístico:** `scipy.stats`, `statsmodels`
 * **Entorno:** Jupyter Notebook
 
@@ -72,9 +71,6 @@ Muchos estudiantes compaginan sus estudios con trabajos a media jornada. ¿Tiene
 
 ## 👨‍💻 Autor
 
-**[Tu Nombre/MarcMatHi]**
+**[Marc Mateu Higueras**
 * Data Analyst 
-* [Enlace a tu LinkedIn]
-* [Enlace a tu Portafolio/Web personal]
-
-*Si tienes alguna pregunta o sugerencia sobre este análisis, ¡no dudes en contactarme o abrir una issue!*
+* https://www.linkedin.com/in/marc-mateu-higueras-2814a7390/
