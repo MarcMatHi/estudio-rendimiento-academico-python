@@ -8,7 +8,7 @@
 
 ## 📌 Resumen del Proyecto
 
-El objetivo de este proyecto es analizar datos relacionados con los hábitos y el entorno de los estudiantes para descubrir qué factores tienen un impacto real y estadísticamente significativo en su rendimiento académico. 
+El objetivo de este proyecto es **analizar datos relacionados con los hábitos y el entorno de los estudiantes** para descubrir qué factores tienen un impacto real y estadísticamente significativo en su rendimiento académico. 
 
 En lugar de basarnos en la intuición, aplicamos **estadística inferencial** para responder a dos preguntas de negocio (o de investigación) fundamentales:
 
