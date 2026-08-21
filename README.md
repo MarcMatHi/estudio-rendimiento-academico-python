@@ -1,6 +1,6 @@
 # 📚 Estudio del Rendimiento Académico: Análisis Estadístico en Python
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.14-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 [![Status](https://img.shields.io/badge/Status-Completado-success.svg)]()
 
